@@ -1,0 +1,19 @@
+{
+    "template_id": "",
+    "from": {
+        "email": ""
+    },
+    "personalizations": [
+        {
+            "to": [
+                {
+                    "email": ""
+                }
+            ],
+            "subject": "Sending with Twilio SendGrid is Fun",
+            "dynamic_template_data": {
+                "full_name": "Muhammed İKİNCİ"
+            }
+        }
+    ]
+}

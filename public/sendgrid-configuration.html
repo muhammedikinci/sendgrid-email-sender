@@ -1,0 +1,49 @@
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">SendGrid Configuration</h1>
+    </div>
+</div>
+
+<div class="cont">
+    <div class="card">
+        <div class="card-body">
+            <div class="alert alert-success" id="successAlert">
+                Success
+            </div>
+            <div class="alert alert-danger" id="dangerAlert">
+                Danger
+            </div>
+            <div class="form-group">
+                <lable for="templateid">Template ID</lable>
+                <input class="form-control" placeholder="Template Id" id="templateid" />
+            </div>
+            <div class="form-group">
+                <lable for="fromemail">From Email</lable>
+                <input class="form-control" placeholder="From Email" id="fromemail" />
+            </div>
+            <div class="form-group">
+                <lable for="toemail">To Email</lable>
+                <input class="form-control" placeholder="To Email" id="toemail" />
+            </div>
+            <div class="form-group">
+                <lable for="subject">Subject</lable>
+                <input class="form-control" placeholder="Subject" id="subject" />
+            </div>
+            <div class="form-group">
+                <lable for="passdata">Pass Data</lable>
+                <textarea class="form-control" id="passdata" rows="20" cols="100"></textarea>
+            </div>
+            <button class="btn btn-primary" style="width: 100%;" id="setSendGridConfBtn">Update</button>
+        </div>
+    </div>
+</div>
+
+<style>
+    .cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+</style>
