@@ -18,3 +18,9 @@ Start and enjoy the UI
 ```sh
 $ go run ./
 ```
+
+Go!
+
+```sh
+http://localhost:3000/index
+```
